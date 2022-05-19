@@ -1,0 +1,28 @@
+spring:
+  mail:
+    host: smtp.163.com # Sending mail server
+    properties.mail.smtp.port: 994 #465 or 994
+    nickname: 胖猫商城
+    properties.mail.smtp.starttls.enable: true
+    properties.mail.smtp.starttls.required: true
+    properties.mail.smtp.ssl.enable: true
+    default-encoding: utf-8
+    username: chen1608161794@163.com
+    password: HZVZBDQXGIWUDAMX
+
+sms:
+  aliyun:
+    accessKeyID: LTAI5tAx26m3jYHsP1D3JJdV
+    accessKeySecret: 97Bvf6g5eQr5QWwoebGnuxQCEfUg7R
+    domain: dysmsapi.aliyuncs.com
+    regionId: cn-hangzhou
+    templateCode: SMS_205882311
+    signName: 胖猫商城
+
+oss:
+  bucketName: mymall-pictures
+  accessKeyId: LTAI5tAx26m3jYHsP1D3JJdV
+  accessKeySecret: 97Bvf6g5eQr5QWwoebGnuxQCEfUg7R
+  endpoint: http://oss-cn-beijing.aliyuncs.com
+  bucket: https://mymall-pictures.oss-cn-beijing.aliyuncs.com
+  fileHost: images
