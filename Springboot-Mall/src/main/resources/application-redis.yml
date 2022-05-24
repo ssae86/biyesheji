@@ -3,12 +3,12 @@ spring:
     # Redis数据库索引（默认为0）
     database: 0
     # Redis服务器地址
-#    host: 192.168.142.128
-    host: 192.168.73.128
+#    host: 
+    host: 
     # Redis服务器连接端口
     port: 6379  #6379
     # Redis 密码
-    password: chen123456
+    password: 
     jedis:
       pool:
         # 连接池中的最小空闲连接
@@ -24,4 +24,4 @@ spring:
     #ElasticSearch配置
   elasticsearch:
     rest:
-      uris: http://192.168.73.128:9200
+      uris: http://:9200
