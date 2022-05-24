@@ -8,12 +8,12 @@ spring:
     properties.mail.smtp.ssl.enable: true
     default-encoding: utf-8
     username: chen1608161794@163.com
-    password: HZVZBDQXGIWUDAMX
+    password: 
 
 sms:
   aliyun:
-    accessKeyID: LTAI5tAx26m3jYHsP1D3JJdV
-    accessKeySecret: 97Bvf6g5eQr5QWwoebGnuxQCEfUg7R
+    accessKeyID: 
+    accessKeySecret: 
     domain: dysmsapi.aliyuncs.com
     regionId: cn-hangzhou
     templateCode: SMS_205882311
@@ -21,8 +21,8 @@ sms:
 
 oss:
   bucketName: mymall-pictures
-  accessKeyId: LTAI5tAx26m3jYHsP1D3JJdV
-  accessKeySecret: 97Bvf6g5eQr5QWwoebGnuxQCEfUg7R
+  accessKeyId: 
+  accessKeySecret: 
   endpoint: http://oss-cn-beijing.aliyuncs.com
   bucket: https://mymall-pictures.oss-cn-beijing.aliyuncs.com
   fileHost: images
